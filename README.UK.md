@@ -1,4 +1,4 @@
-[![Go Reference](https://img.shields.io/badge/godoc-reference-blue)](https://pkg.go.dev/github.com/goloop/observe) [![License](https://img.shields.io/badge/license-MIT-brightgreen)](https://github.com/goloop/observe/blob/master/LICENSE) [![Stay with Ukraine](https://img.shields.io/static/v1?label=Stay%20with&message=Ukraine%20♥&color=ffD700&labelColor=0057B8&style=flat)](https://u24.gov.ua/)
+[![Go Reference](https://img.shields.io/badge/godoc-reference-blue)](https://pkg.go.dev/github.com/goloop/observe) [![License](https://img.shields.io/badge/license-MIT-brightgreen)](https://github.com/goloop/observe/blob/v1/LICENSE) [![Stay with Ukraine](https://img.shields.io/static/v1?label=Stay%20with&message=Ukraine%20♥&color=ffD700&labelColor=0057B8&style=flat)](https://u24.gov.ua/)
 
 # observe
 
@@ -77,3 +77,7 @@ obs.Check("app", func(context.Context) error {
 ## Ліцензія
 
 MIT - див. [LICENSE](LICENSE).
+
+## Реліз v1.0.0
+
+Поточний API оголошено стабільним без змін алгоритмів. Реліз v1 зберігає поточний import path і публічний API. Майбутні несумісні зміни потребуватимуть нової головної версії.

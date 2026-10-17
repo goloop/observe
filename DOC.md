@@ -130,3 +130,7 @@ middleware with bounded labels.
 
 `observe` does not: OpenTelemetry, distributed tracing, alerting, dashboards or
 log aggregation. It stays compatible with those without depending on them.
+
+## Release v1.0.0
+
+Publish the existing health check API as version 1.0.0. The v1 release keeps the existing import path and public API. Future incompatible changes require a new major version.
